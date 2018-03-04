@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="touchedEffect">#BDBDBD</color>
+    <color name="gridItem">#5cb88b</color>
+
+    <color name="swipebg">#cc3333</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    tools:context="com.bbeaggoo.junglee.GridActivity">
+
+    <!--
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    -->
+
+    <!--
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+-->
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"
+        android:numColumns="2"
+        android:background="@color/colorWhite"
+        android:listSelector="@color/touchedEffect">
+    </GridView>
+
+    <ExpandableListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="700dp"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
+        android:indicatorRight="440dp"
+        android:background="#fff"
+        android:groupIndicator="@null"/>
+        <!--
+        android:groupIndicator="@drawable/settings_selector"
+        -->
+
+</android.support.v4.widget.DrawerLayout>
+<!--
+</LinearLayout>
+-->

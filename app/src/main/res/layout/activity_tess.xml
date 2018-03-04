@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bbeaggoo.junglee.screenshot.TessActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/select_photo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select photo"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="6dp"
+            android:onClick="onClick"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            app:srcCompat="@drawable/placeholder"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="54dp" />
+
+        <Button
+            android:id="@+id/run_ocr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Run OCR"
+            android:onClick="processImage" />
+
+        <TextView
+            android:id="@+id/ocr_result_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="371dp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">junglee</string>
+    <string name="category_edit">Edit category and folder</string>
+    <string name="action_add_category">Add category</string>
+    <array name="images_array">
+        <item>
+            http://lh5.ggpht.com/_hepKlJWopDg/TB-_WXikaYI/AAAAAAAAElI/715k4NvBM4w/s144-c/IMG_0075.JPG
+        </item>
+        <item>
+            http://lh4.ggpht.com/_4f1e_yo-zMQ/TCe5h9yN-TI/AAAAAAAAXqs/8X2fIjtKjmw/s144-c/IMG_1786.JPG
+        </item>
+        <item>
+            http://lh3.ggpht.com/_GEnSvSHk4iE/TDSfmyCfn0I/AAAAAAAAF8Y/cqmhEoxbwys/s144-c/_MG_3675.jpg
+        </item>
+        <item>
+            http://lh6.ggpht.com/_ZN5zQnkI67I/TCFFZaJHDnI/AAAAAAAABVk/YoUbDQHJRdo/s144-c/P9250508.JPG
+        </item>
+        <item>
+            http://lh4.ggpht.com/_XjNwVI0kmW8/TCOwNtzGheI/AAAAAAAAC84/SxFJhG7Scgo/s144-c/0014.jpg
+        </item>
+        <item>
+            http://lh6.ggpht.com/_Nsxc889y6hY/TBp7jfx-cgI/AAAAAAAAHAg/Rr7jX44r2Gc/s144-c/IMGP9775a.jpg
+        </item>
+        <item>
+            http://lh6.ggpht.com/_ZN5zQnkI67I/TCFFZaJHDnI/AAAAAAAABVk/YoUbDQHJRdo/s144-c/P9250508.JPG
+        </item>
+    </array>
+
+    <array name="headline_array">
+        <item>Dance of Democracy</item>
+        <item>Major Naxal attacks in the past</item>
+        <item>BCCI suspends Gurunath pending inquiry</item>
+        <item>Life convict can`t claim freedom after 14 yrs: SC</item>
+        <item>Indian Army refuses to share info on soldiers mutilated at LoC</item>
+        <item>French soldier stabbed; link to Woolwich attack being probed</item>
+        <item>Life convict can`t claim freedom after 14 yrs: SC</item>
+    </array>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="action_abandon">Abandon</string>
+    <string name="action_plus">Plus</string>
+    <string name="action_share">Share</string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="name">NAME</string>
+    <string name="phone">PHONE NUMBER</string>
+    <string name="hotkey">HOTKEY</string>
+    <string name="insert">INSERT</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="search">SEARCH</string>
+    <string name="exit">EXIT</string>
+    <string name="clear">CLEAR</string>
+    <string name="title_activity_screen_shot_processing_detail">ScreenShotProcessingDetailActivity
+    </string>
+    <string name="title_activity_file_explorer_for_images">FileExplorerForImages</string>
+
+</resources>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bbeaggoo.junglee.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clipboard obserbing start"
+        android:id="@+id/clipboard"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clipboard obserbing end"
+        android:id="@+id/clipboardend"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/clipboard" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My List"
+        android:id="@+id/myList"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/clipboardend" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My List Real"
+        android:id="@+id/myListReal"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/myList" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My List Real"
+        android:id="@+id/grid"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/myListReal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get all images"
+        android:id="@+id/getAllImages"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/grid" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start ExpandableActivity"
+        android:id="@+id/expandable"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/getAllImages" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get All Clipboard"
+        android:id="@+id/getAllClipboard"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/expandable" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test for DB"
+        android:id="@+id/db"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/getAllClipboard" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit category"
+        android:id="@+id/editcategory"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="161dp"
+        android:layout_below="@+id/db" />
+
+    <Button
+        android:id="@+id/tesseract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editcategory"
+        android:layout_alignStart="@+id/getAllClipboard"
+        android:layout_below="@+id/editcategory"
+        android:text="Tesseract test"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/screenshotImageProcessing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/getAllClipboard"
+        android:layout_below="@+id/tesseract"
+        android:text="Start processing for all screenshot images"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/start_always_on_top_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/getAllClipboard"
+        android:layout_below="@+id/screenshotImageProcessing"
+        android:text="Start AlwaysOnTopService"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/stop_always_on_top_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/getAllClipboard"
+        android:layout_below="@+id/start_always_on_top_service"
+        android:text="Stop AlwaysOnTopService"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/file_explore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/getAllClipboard"
+        android:layout_below="@+id/stop_always_on_top_service"
+        android:text="File Explore"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/file_explorer_for_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/getAllClipboard"
+        android:layout_below="@+id/file_explore"
+        android:text="File Explore For Images"
+        android:onClick="onClick"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+</ScrollView>
