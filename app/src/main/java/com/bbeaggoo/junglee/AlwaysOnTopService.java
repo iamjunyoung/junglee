@@ -217,7 +217,8 @@ public class AlwaysOnTopService extends Service {
         paramsForListPopup = new WindowManager.LayoutParams(
                 WindowManager.LayoutParams.WRAP_CONTENT,
                 WindowManager.LayoutParams.WRAP_CONTENT,
-                WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+                //WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,     //�� �Ӽ��� ���ָ� ��ġ & Ű �̺�Ʈ�� �԰� �ȴ�.
                 PixelFormat.TRANSLUCENT);
         paramsForListPopup.gravity = Gravity.LEFT | Gravity.TOP;
@@ -291,7 +292,8 @@ public class AlwaysOnTopService extends Service {
                 200,
                 //WindowManager.LayoutParams.WRAP_CONTENT,
                 //WindowManager.LayoutParams.WRAP_CONTENT,
-                WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+                //WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
                 //WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM |
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,     //�� �Ӽ��� ���ָ� ��ġ & Ű �̺�Ʈ�� �԰� �ȴ�.
                 //��Ŀ���� ���༭ �ڱ� ���� ����ġ�� �ν� ���ϰ� Ű�̺�Ʈ�� ������� �ʰ� ����
@@ -406,7 +408,8 @@ public class AlwaysOnTopService extends Service {
 
                 WindowManager.LayoutParams.WRAP_CONTENT,
                 WindowManager.LayoutParams.WRAP_CONTENT,
-                WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+                //WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,     //�� �Ӽ��� ���ָ� ��ġ & Ű �̺�Ʈ�� �԰� �ȴ�.
                 PixelFormat.TRANSLUCENT);
         paramsForListPopup.gravity = Gravity.LEFT | Gravity.TOP;
@@ -478,7 +481,8 @@ public class AlwaysOnTopService extends Service {
         WindowManager.LayoutParams params = new WindowManager.LayoutParams(
                 WindowManager.LayoutParams.MATCH_PARENT,
                 WindowManager.LayoutParams.WRAP_CONTENT,
-                WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
+                //WindowManager.LayoutParams.TYPE_PHONE,             //�׻� �� ������ �ְ�. status bar �ؿ� ����. ��ġ �̺�Ʈ ���� �� ����.
                 WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE,    //�� �Ӽ��� ���ָ� ��ġ & Ű �̺�Ʈ�� �԰� �ȴ�.
                 //��Ŀ���� ���༭ �ڱ� ���� ����ġ�� �ν� ���ϰ� Ű�̺�Ʈ�� ������� �ʰ� ����
                 PixelFormat.TRANSLUCENT);                             //����

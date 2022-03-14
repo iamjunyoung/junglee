@@ -156,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.start_always_on_top_service:
                 Intent AOTS = new Intent(this, AlwaysOnTopService.class);
+                //startForegroundService(AOTS);
                 startService(AOTS);
                 break;
             case R.id.stop_always_on_top_service:
